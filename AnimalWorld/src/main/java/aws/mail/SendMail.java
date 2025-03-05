@@ -110,9 +110,9 @@ public class SendMail
 	{
 		SendMail mail = new SendMail();
 		//System.out.println(mail.AuthCode(7));
-		mail.setFrom("cnrhcjs10@naver.com");
-		mail.setTo("cnrhcjs10@naver.com");
-		mail.setAccount("cnrhcjs10", "1124rhcjs@");
+		mail.setFrom("@naver.com");
+		mail.setTo("@naver.com");
+		mail.setAccount("", "");
 		mail.setMail("이것은 제목입니다.", "인증코드 : " + mail.AuthCode(4));
 		mail.sendMail();
 		
